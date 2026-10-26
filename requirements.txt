@@ -1,0 +1,13 @@
+# --- model runtime: MUST match the versions the pickle was trained with ---
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+
+# --- web / infra ---
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+requests==2.32.3
+APScheduler==3.10.4
+tzdata==2024.2
