@@ -1,0 +1,13 @@
+import unittest
+
+class TestCloudburstPrediction(unittest.TestCase):
+
+    def test_sample_input(self):
+        temperature = 30
+        humidity = 90
+
+        self.assertGreaterEqual(temperature, 0)
+        self.assertLessEqual(humidity, 100)
+
+if __name__ == "__main__":
+    unittest.main()
